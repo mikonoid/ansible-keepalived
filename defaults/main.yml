@@ -1,2 +1,6 @@
 ---
 
+# Vars for keepalived
+
+keepalived_VIP: 192.168.99.213
+keepalived_interface: enp0s8
