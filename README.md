@@ -1,7 +1,7 @@
 ansible-keepalived
 =============
 
-Ansible role for installing HAProxy for Load balancing beetween content1.mass.sxb and content2.mass.sxb
+Ansible role for installing keepalived for Load balancing 
 
 Role Variables
 --------------
