@@ -5,7 +5,7 @@ Ansible role for installing HAProxy for Load balancing beetween content1.mass.sx
 
 Role Variables
 --------------
-/group_vars/keepalived.yml
+defaults/main.yml
 
 keepalived_priority should be defined in inventory file!
 
@@ -19,6 +19,8 @@ Dependencies
 
 None
 
-
+Author 
+-----------
+Mike Ivanov
 
 # ansible-keepalived
