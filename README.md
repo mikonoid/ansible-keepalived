@@ -9,6 +9,9 @@ defaults/main.yml
 
 keepalived_priority should be defined in inventory file!
 
+keepalived_VIP: VIP(floating IP)
+keepalived_interface: Interface for VIP
+
 Requirements
 -----------
 Ubuntu 16.04
