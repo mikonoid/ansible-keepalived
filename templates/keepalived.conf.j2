@@ -5,10 +5,10 @@ weight 2                      # add 2 points of prio if OK
 }
 
 vrrp_instance VI_1 {
-interface "{{keepalived_interface}}"                # interface to monitor
+interface "{{keepalived_interface}}"      # interface to monitor
 state MASTER
-virtual_router_id 51          # Assign one ID for this route
-priority "{{ keepalived_priority }} "                  # 100 on master, 50 on backup
+virtual_router_id 51                      # Assign one ID for this route
+priority "{{ keepalived_priority }} "     # 100 on master, 50 on backup
 
 #virtual IP's
 virtual_ipaddress {
